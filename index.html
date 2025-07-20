@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <style>
+        .top{
+            text-align:right;
+            color:rgb(215, 249, 242);
+            font-size: 17px;
+        }
+        .list{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+        }
+        .card{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            border: 1px solid rgb(0, 0, 0);
+            flex:1;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .card:hover{
+            box-shadow: 2px 2px 5px rgb(0, 0, 0);
+        }
+        .words{
+            text-align: center;
+            font-size: 20px;
+            padding: 0 20px;
+        }
+         h1{
+            text-align:center;
+            color:rgb(255, 255, 255);
+            text-shadow: 2px 4px 5px rgb(0, 0, 0);
+            padding:7px;
+            background-color: rgb(180, 51, 0);
+         }
+         h4{
+            font-size: 25px;
+            text-align: center;
+            font-style: italic;
+         }
+         body{
+            background-image: url("book.jpg");
+            background-size: cover;
+         }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        a{
+            font-size: 22px;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p class="top"> Maimuna Fatima<br>05H8</p>
+    <h1>DICTIONARY</h1><br>
+    <div class="words">
+        <h4>Let's learn few words in English language</h4>
+        <div class="list">
+            <div class="card">
+                <img src="1.jpg" alt="not found"><br>
+                <a href="w1.html">Accismus</a>
+            </div>
+            <div class="card">
+                <img src="2.jpg" alt="not found"><br>
+                <a href="w2.html">Mellifluous</a>
+            </div>
+            <div class="card">
+                <img src="3.jpg" alt="not found"><br>
+                <a href="w3.html">Perfidious</a>
+            </div>
+            <div class="card">
+                <img src="4.jpg" alt="not found"><br>
+                <a href="w4.html">Quaff</a>
+            </div>
+            <div class="card">
+                <img src="5.jpg" alt="not found"><br>
+                <a href="w5.html">Obfuscate</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
